@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html, main {
+    font-family: "Lato", sans-serif;
+    color: #777;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+.titulo__principal {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.titulo__principal span {
+    padding:  20px 50px;
+    font-size: 1.5em;
+    background-color: rgba(0, 0, 0, 0.918);
+    letter-spacing: 5px;
+}
+
+.conteudo {
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.conteudo__titulo {
+    text-transform: uppercase;
+    text-align: center;
+    color: #111;
+
+}
+
+.conteudo__paragrafo {
+    padding: 20px;
+}
+
+.imagem {
+    position: relative;
+    height: 100%;
+    opacity: 0.6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.imagem__um {
+    background-image: url(/imagens/imagem1.jpg);
+}
+
+.imagem__dois {
+    background-image: url(/imagens/imagem2.jpg);
+}
+
+.imagem__treis {
+    background-image: url(/imagens/imagem3.jpg);
+}
+
+.imagem__quatro {
+    background-image: url(/imagens/imagem4.jpg);
+}
